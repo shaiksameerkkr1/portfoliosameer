@@ -1,152 +1,156 @@
-body{
-  font-family:'Montserrat', sans-serif;
-  margin:0;
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
-h1{
-  font-family: 'Anton', sans-serif;
+h1 {
+  font-family: "Anton", sans-serif;
   font-size: 4rem;
   line-height: 1.5;
 }
-hr{
-width: 5%;
-margin: auto;
-padding-bottom: 25px;
-padding-top: 15px;
-border-top-style: dotted;
-color: white;
-/* EAF6F6 */
-border-width: 7px;
+hr {
+  width: 5%;
+  margin: auto;
+  padding-bottom: 25px;
+  padding-top: 15px;
+  border-top-style: dotted;
+  color: white;
+  /* EAF6F6 */
+  border-width: 7px;
 }
 
 /* title */
-#title{
-  background-color: #EFFFFD;    /* DFF6FF */  /* FEE2C5 */
+#title {
+  background-color: #effffd; /* DFF6FF */ /* FEE2C5 */
+  height: 100vh;
 }
-.title-image{
+.title-image {
   border-radius: 10%;
   width: 120%;
 }
 
-
 /* about */
-.about{
-  background-color: #6E7C7C;
+#about {
+  background-color: #6e7c7c;
   color: white;
   /* 0A1D37  6E7C7C */
   text-align: center;
+  height: 100vh;
 }
-.about-img{
+.about-img {
   width: 90%;
   border-radius: 100%;
   padding-bottom: 1.8rem;
 }
-.table{
+.table {
   text-align: justify;
 }
-.tds{
+.tds {
   padding-right: 20px;
-  color: #D3DEDC;
+  color: #d3dedc;
 }
-.tds2{
-  color: #E6E6E6;
-  text-align:left;
+.tds2 {
+  color: #e6e6e6;
+  text-align: left;
 }
-.container-fluid{
+.container-fluid {
   padding: 3% 15%;
+}
+.features-para {
+  text-align: left;
 }
 
 /* navigation bar */
-.navbar{
+.navbar {
   margin: auto;
   padding-bottom: 4.5rem;
 }
-.navbar-brand{
-  font-family: 'Kolker Brush', cursive;
+.navbar-brand {
+  font-family: "Kolker Brush", cursive;
   font-size: 4.5rem;
 }
-.nav-item{
+.nav-item {
   padding: 0 18px;
 }
-.nav-link{
+.nav-link {
   font-family: "Montserrat-light";
   font-size: 1.2rem;
 }
 
 /* contact buttons */
-.mail-button{
+.mail-button {
   margin: 5% 3% 5% 0;
 }
 
-.linkedin{
-  color: #0A66C2;
+.linkedin {
+  color: #0a66c2;
   width: auto;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   font-weight: bolder;
   margin: 5% 3% 5% 0;
 }
-.linkedinbtn:hover{
-  background-color: #FFFAD7;
+.linkedinbtn:hover {
+  background-color: #fffad7;
 }
-.mail-button:hover{
-  background-color: #001D6E;
+.mail-button:hover {
+  background-color: #001d6e;
 }
 
 /* features */
-#features{
+#features {
   padding: 7% 15%;
   text-align: center;
 }
-.feature-box{
+.feature-box {
   text-align: center;
   padding: 5%;
 }
-.icon{
-  color: #D49B54;
-  margin : 1.5rem 0;
+.icon {
+  color: #d49b54;
+  margin: 1.5rem 0;
 }
-.icon:hover{
-  color: #22577E;
+.icon:hover {
+  color: #22577e;
 }
-.features-heading{
-  margin:2rem;
+.features-heading {
+  margin: 2rem;
 }
-.features-para{
-  color: #E6E6E6;
+.features-para {
+  color: #e6e6e6;
   line-height: 1.8rem;
 }
 
 /* education */
-#education{
+#education {
   text-align: center;
-  background-color: #EFFFFD;
-  padding: 7% 15%
+  background-color: #effffd;
+  padding: 7% 15%;
 }
-.education-h2{
+.education-h2 {
   padding-bottom: 3rem;
 }
-.edu-column{
+.edu-column {
   padding: 2% 3%;
 }
 
 /* certificates */
-#certificates{
+#certificates {
   padding: 7% 15%;
-  background-color: #6E7C7C;
+  background-color: #6e7c7c;
   text-align: center;
   color: white;
 }
-.carousel-item{
+.carousel-item {
   padding: 7% 15%;
 }
-.certificate-img{
+.certificate-img {
   width: 100%;
 }
 
 /* projects */
-#projects{
+#projects {
   padding: 7% 15%;
   text-align: center;
-  background-color: #FAF7F0;
+  background-color: #faf7f0;
 }
 /* #EEEEEE */
 .project-card {
@@ -154,52 +158,52 @@ border-width: 7px;
 }
 
 /* cta */
-#cta{
+#cta {
   padding: 4% 15% 2%;
-  background-color:#394867;
+  background-color: #394867;
   text-align: center;
   color: #fff;
   /* color: #FF6464; */
 }
-.cta-des{
-  font-family: 'Fjalla One', sans-serif;
-  color: #D89216;
+.cta-des {
+  font-family: "Fjalla One", sans-serif;
+  color: #d89216;
   font-size: 4rem;
   /* FF5C58 */
 }
 /* footer */
-#footer{
+#footer {
   /* background-color:#0A1D37; */
   color: grey;
   text-align: center;
   margin-top: 4px;
   margin-bottom: 0;
 }
-.footer-icon{
+.footer-icon {
   padding: 0.8%;
 }
 
 /* mobile specific */
-@media(max-width:1028px) {
-  p{
+@media (max-width: 1028px) {
+  p {
     font-size: 1.45rem;
     line-height: 1.8rem;
   }
-  .features-para{
-    color: #E6E6E6;
+  .features-para {
+    color: #e6e6e6;
     line-height: 2.3rem;
     font-size: 1.7rem;
   }
-  .table{
+  .table {
     font-size: 1.45rem;
   }
-  h4{
+  h4 {
     font-size: 1.6rem;
   }
-  .card-title{
+  .card-title {
     font-size: 1.7rem;
   }
-  #certificates{
+  #certificates {
     max-width: 100%;
   }
 }
